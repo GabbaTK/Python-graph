@@ -1,0 +1,8 @@
+{
+    "blockname": "Basic output",
+    "description": "Prints out the provided data",
+    "datain": {
+        "Value": "VALUETYPE.ANY"
+    },
+    "dataout": {}
+}
