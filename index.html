@@ -5,7 +5,7 @@
         <meta charset="utf-8">
 
         <link rel="stylesheet", type="text/css", href="stylesheet.css">
-        <script src="javascript.js"></script>
+        <script src="javascript.js" type="module"></script>
 
         <title>!!INSERT NAME HERE!!</title>
     </head>
@@ -23,13 +23,26 @@
         <div class="blackline"></div>
 
         <div class="sidepanel" id="sidepanel">
-            <div class="sidepanel codeblock">
-                <h2 class="sidepanel codeblockinfo">BLOCK NAME</h2>
-                <p class="sidepanel codeblockinfo">Block description yadda yadda yaaowdjiajwid jes no ojwa</p>
-                <br>
-                <p class="sidepanel codeblockinfo">Input name</p>
-                <p class="sidepanel codeblockinfo">Type</p>
+            
+        </div>
+
+        <div class="sidepanel codeblock moving" onClick="codeblockDivClick(event)">
+            <h2 class="sidepanel codeblockinfo">BLOCKNAME</h2>
+            <p class="sidepanel codeblockinfo">BLOCKDESCRIPTION</p>
+            
+            <br>
+            <div class="sidepanel codeblockpair">
+            <p class="sidepanel codeblockinfo varname">INPUTVARNAME</p>
+            <p class="sidepanel codeblockinfo vartype">TYPE</p>
+            </div>
+            
+            <div class="thinblackline sidepanel inoutseparator"></div>
+            <div class="sidepanel codeblockpair">
+                <p class="sidepanel codeblockinfo varname">OUTPUTVARNAME</p>
+                <p class="sidepanel codeblockinfo vartype">TYPE</p>
             </div>
         </div>
+        
+        
     </body>
 </html>
